@@ -1,0 +1,159 @@
+
+/* General **/
+
+@media screen and (max-width:680px){
+
+	body{
+		width: auto;
+		float: none;
+	}
+	#header{
+		width: auto;
+		float: none;
+	}
+}
+
+img { 
+    max-width: 100%; height: auto; 
+}
+
+ul,ol,li{
+  list-style: none;
+}
+
+span {
+    color: #f96f59;
+    font-size: 40px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p{
+    font-family: 'Arial';
+    color: white;
+}
+
+#footerlink a{
+    color: rgb(233,178,50);
+}
+
+#footerlink a:hover{
+    color: yellow;
+}
+
+
+/* Body **/
+
+#status{
+    display: flex;
+}
+
+#header{
+    display: flex;
+    background-color: rgb(41,160,220);
+    padding-left: 80px;
+    height: 70px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+body h3,h5{
+    color: black;
+}
+/* --Contributor */
+
+#contributor p{
+    color: black;
+}
+
+/* --Why us */
+#why{
+    display: flex;
+    flex-direction: column;
+}
+
+#why p{
+    color: #333;
+}
+
+/* --Navbar */
+.navbar {
+    background-color: rgb(41, 160, 220);
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* --Hero */
+.hero {
+    background-image: url('img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* --Button */
+.wa {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: forestgreen;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.dc {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: purple;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Footer **/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(41,160,220);
+}
+
+footer span{
+    font-size: 15px;
+}
+
+#bottom{
+    background-color: rgb(41,160,220);
+    padding: 4px;
+    text-align: center;
+}
+
+#footerlink{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Misc **/
+
+
