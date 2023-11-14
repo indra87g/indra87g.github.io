@@ -1,21 +1,7 @@
 
 /* General **/
 
-@media screen and (max-width:680px){
-
-	body{
-		width: auto;
-		float: none;
-	}
-	#header{
-		width: auto;
-		float: none;
-	}
-}
-
-img { 
-    max-width: 100%; height: auto; 
-}
+link:"boo"
 
 ul,ol,li{
   list-style: none;
@@ -28,12 +14,12 @@ span {
 
 h1,h2,h3,h4,h5,h6{
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p{
     font-family: 'Arial';
-    color: white;
+    color: black;
 }
 
 #footerlink a{
@@ -47,10 +33,6 @@ p{
 
 /* Body **/
 
-#status{
-    display: flex;
-}
-
 #header{
     display: flex;
     background-color: rgb(41,160,220);
@@ -61,21 +43,6 @@ p{
 
 body h3,h5{
     color: black;
-}
-/* --Contributor */
-
-#contributor p{
-    color: black;
-}
-
-/* --Why us */
-#why{
-    display: flex;
-    flex-direction: column;
-}
-
-#why p{
-    color: #333;
 }
 
 /* --Navbar */
@@ -112,31 +79,75 @@ body h3,h5{
 }
 
 /* --Button */
-.wa {
+.fb {
     display: inline-block;
     padding: 10px 20px;
-    background-color: forestgreen;
+    background-color: royalblue;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
-.dc {
+.yt {
     display: inline-block;
     padding: 10px 20px;
-    background-color: purple;
+    background-color: red;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
 }
 
+.bg {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: orangered;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+.gh{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: black;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+/* --Section */
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.study{
+    display: flex;
+    flex-direction: column;
+}
+
+.achievement{
+    display: flex;
+    flex-direction: column;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+}
 
 /* Footer **/
 
 footer{
     display: flex;
     flex-direction: column;
-    background-color: rgb(41,160,220);
+    background-color: #334;
 }
 
 footer span{
@@ -149,11 +160,4 @@ footer span{
     text-align: center;
 }
 
-#footerlink{
-    display: flex;
-    flex-direction: column;
-}
-
 /* Misc **/
-
-
