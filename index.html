@@ -1,53 +1,44 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
+    <meta name="description"
+        content="Hai, Saya Indra ! Saya adalah seorang developer, freelancer, blogger dan youtuber">
+    <meta name="keywords"
+        content="developer, portfolio, gtasa, youtube, google, people, freelancer, blogger, youtuber, creator">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="assets/favicon.png">
     <title>Indra Sah Noeldy - Developer</title>
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="theme-color" content="#3F51B5">
 
-    <link rel="stylesheet" href="assets/vendor/mdl/material.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/vendor/bootstrap-i/bootstrap-i.css">
-    <script src="assets/vendor/mdl/material.min.js"></script>
-    <script src="assets/vendor/bootstrap.js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-i/bootstrap-i.css">
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
 
-    <script>
-        var oldOnLoad = window.onload;
-        window.onload = function () {
-            oldOnLoad && oldOnLoad();
-            var anchors = document.querySelectorAll('a');
-            for (var i = 0; i < anchors.length; ++i) {
-                var anchor = anchors[i];
-                anchor.onclick = function () {
-                    window.ga && window.ga('send', 'event', 'Link', 'Click link', this.href, { transport: 'beacon' });
-                }
-            }
-        }
-    </script>
 </head>
 
 <body>
     <div>
-        <header class="mdl-color--indigo-700 mdl-color-text--white mdl-shadow--4dp">
-            <div class="mdl-color--indigo-700">
+        <header class="bg-success text-white">
+            <div class="bg-danger shadow">
                 <p>See the english version <a href="index-EN.html">Here</a></p>
             </div>
-            <section class="title mdl-color--indigo-500">
-                <h1 class="mdl-typography--display-2">Indra Sah Noeldy</h1>
-                <p class="mdl-typography--body-1">Developer - Youtuber - Freelancer - Blogger</p>
-                <p class="mdl-typography--body-1">Founder of <a href="https://asterixcorp.github.io" class="bi bi-asterisk">Asterix
-                        Corporation</a></p>
-                <i class="bi bi-cake"></i><b> Sidikalang, 07 Mei 2009</b><br>
+            <section class="text-center">
+                <h1 class="display-5 fw-bolder mb-2"><u>Indra</u> Sah Noeldy</h1>
+                <p class="fw-normal mb-4">Developer - Youtuber - Freelancer - Blogger</p>
+                <p class="fw-normal mb-4">Founder of <a href="https://asterixtech.github.io"
+                        class="bi bi-asterisk text-bg-success">Asterix
+                        Technology LLC</a></p>
+                <i class="bi bi-cake"></i>
+                <p class="fw-bolder"> Sidikalang, 07 Mei 2009</p><br>
             </section><br>
             <section class="contact">
-                <i class="bi bi-phone"></i>
+                <h4 class="bi bi-phone"></h4>
                 <div>
-                    <h2 class="mdl-typography--title">Kontak</h2>
-                    <p>Jika ingin membicarakan bisnis dan kolaborasi ataupun hanya sekedar berkenalan, hubungilah saya :)</p>
+                    <h2 class="fw-bolder mb-4">Kontak</h2>
+                    <p class="lead fw-normal mb-4">Jika ingin membicarakan bisnis dan kolaborasi ataupun hanya sekedar
+                        berkenalan, hubungilah saya
+                        :)</p>
                     <ul>
                         <li>
                             <i class="bi bi-envelope"></i>
@@ -82,39 +73,36 @@
                 </div>
             </section>
             <section class="skills">
-                <i class="bi bi-bar-chart"></i>
+                <h4 class="bi bi-bar-chart"></h4>
                 <div>
-                    <h2 class="mdl-typography--title">Keahlian</h2>
+                    <h2 class="fw-bolder mb-4">Keahlian</h2>
                     <ul>
                         <li>
-                            <p class="mdl-typography--caption mdl-typography--caption-color-contrast">Kemampuan Dasar
+                            <p class="lead">Kemampuan Dasar
                             </p>
-                            <p class="mdl-typography--body-1">Software, Hardware, Bahasa Inggris</p>
+                            <p class="fw-bold">Software, Hardware, Bahasa Inggris</p>
                         </li>
                         <li>
-                            <p class="mdl-typography--caption mdl-typography--caption-color-contrast">Bahasa Pemrograman
+                            <p class="lead">Bahasa Pemrograman
                             </p>
-                            <p class="mdl-typography--body-1">HTML, CSS, Javascript, Python, Golang, PHP, Perl, Ruby, Dart</p>
+                            <p class="fw-bold">HTML, CSS, Javascript, Python, Golang, PHP, Perl, Ruby,
+                                Dart</p>
                         </li>
                         <li>
-                            <p class="mdl-typography--caption mdl-typography--caption-color-contrast">Framework</p>
-                            <p class="mdl-typography--body-1">Vue.js, Bootstrap, Django, Laravel, Nuxt.js</p>
+                            <p class="lead">Framework</p>
+                            <p class="fw-bold">Vue.js, Bootstrap, Laravel, Nuxt.js</p>
                         </li>
                         <li>
-                            <p class="mdl-typography--caption mdl-typography--caption-color-contrast">Static Site Generator</p>
-                            <p class="mdl-typography--body-1">Mkdocs, Hugo, Jekyll</p>
-                        </li>
-                        <li>
-                            <p class="mdl-typography--caption mdl-typography--caption-color-contrast">Sistem Operasi</p>
-                            <p class="mdl-typography--body-1">Windows, Debian, Android</p>
+                            <p class="lead">Sistem Operasi</p>
+                            <p class="fw-bold">Windows, Debian, Android</p>
                         </li>
                     </ul>
                 </div>
             </section>
             <section class="skills">
-                <i class="bi bi-person"></i>
+                <h4 class="bi bi-person"></h4>
                 <div>
-                    <h2 class="mdl-typography--title">Orang Favorit Saya</h2>
+                    <h2 class="fw-bolder mb-4">Orang Favorit Saya</h2>
                     <ul>
                         <li><a href="https://novalagung.com">Noval Agung Prayogo</a></li>
                         <li><a href="https://github.com/00-evan">Evan Debenham</a></li>
@@ -123,205 +111,295 @@
                     </ul>
                 </div>
             </section>
+
         </header>
-        <main class="mdl-color--blue-grey-50">
-            <section class="mdl-color--white mdl-shadow--2dp">
-                <h2 class="mdl-typography--display-1">Tentang</h2>
+        <main class="bg-success bg-gradient text-white shadow">
+            <section class="bg-dark shadow">
+                <h2 class="fw-bolder mb-4">Tentang</h2>
                 <section>
                     <img src="assets/img/profile.jpg" width="320" height="318">
-                    <p>Hai, nama saya Indra Sah Noeldy Girsang. Biasa dipanggil Indra. Saya adalah seorang developer berumur 14 tahun asal
-                    Sumatera Utara (lebih tepatnya di Kabupaten Dairi). Saya lahir pada 7 mei 2009 di Sidikalang (Ibukota Dairi). Sekarang saya tinggal
-                    di Desa Tanjung Beringin, Kecamatan Sumbul bersama ibu dan kedua saudara saya (1 saudara saya lainnya sedang berada di Palembang). 
-                    Saya bersekolah di SMPN 2 Sumbul di Kelas 9.<br><br>
-                    Saya memiliki keterbatasan, yaitu tidak dapat berjalan. Ini terjadi sejak saya SD kelas 4. Tapi, walaupun begitu, saya tidak
-                    putus asa dan tetap semangat untuk meraih cita cita saya yaitu seorang Developer dan Content Creator yang sukses.<br><br>
+                    <p class="lead fw-normal mb-4">Hai, nama saya Indra Sah Noeldy Girsang. Biasa dipanggil Indra. Saya
+                        adalah seorang developer
+                        berumur 14 tahun asal
+                        Sumatera Utara (lebih tepatnya di Kabupaten Dairi). Saya lahir pada 7 mei 2009 di Sidikalang
+                        (Ibukota Dairi). Sekarang saya tinggal
+                        di Desa Tanjung Beringin, Kecamatan Sumbul bersama ibu dan kedua saudara saya (1 saudara saya
+                        lainnya sedang berada di Palembang).
+                        Saya bersekolah di SMPN 2 Sumbul di Kelas 9.<br><br>
+                        Saya memiliki keterbatasan, yaitu tidak dapat berjalan. Ini terjadi sejak saya SD kelas 4. Tapi,
+                        walaupun begitu, saya tidak
+                        putus asa dan tetap semangat untuk meraih cita cita saya yaitu seorang Developer dan Content
+                        Creator yang sukses.<br><br>
                     </p>
                 </section>
             </section>
-            <section class="mdl-color--white mdl-shadow--2dp">
-                <h2 class="mdl-typography--display-1">Pendidikan Formal</h2>
+            <section class="bg-dark">
+                <h2 class="fw-bolder mb-4">Pendidikan Formal</h2>
                 <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">SD Negeri 37</h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
+                    <h3 class="lead fw-bold mb-4">SD Negeri 37</h3>
+                    <p class="fw-normal mb-4">
                         2015 - 2020
                     </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
+                    <ul class="lead">
                         <li>SDN 37 adalah sekolah dasar yang berada di desa Tanjung Beringin, Kecamatan Sumbul, Dairi,
                             Sumatera Utara</li>
                     </ul>
                 </section>
                 <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">SMP Negeri 2</h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
+                    <h3 class="lead fw-bold mb-4">SMP Negeri 2</h3>
+                    <p class="fw-normal mb-4">
                         2021 - Sekarang
                     </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
+                    <ul class="lead">
                         <li>SMPN 2 adalah sekolah menengah pertama di Kecamatan Sumbul, Dairi, Sumatera Utara</li>
                     </ul>
                 </section>
             </section>
-            <section class="mdl-color--white mdl-shadow--2dp">
-                <h2 class="mdl-typography--display-1">Pendidikan Nonformal</h2>
+            <section class="bg-dark">
+                <h2 class="fw-bolder mb-4">Pengalaman</h2><br>
+                <h4 class="fw-bold mb-4">Pemrograman</h4>
                 <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">Pemrograman SOLID
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        Sekarang
-                    </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
-                        <li>Pemrograman SOLID adalah kursus pemrograman yang diadakan oleh Dicoding.</li>
-                        <li>Disini saya mempelajari tentang OOP pada pemrograman.</li>
-                    </ul>
+                    <table class="table table-bordered">
+                        <tr class="table-primary">
+                            <th>Nama</th>
+                            <th>Bidang</th>
+                            <th>Pengalaman (tahun)</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Pemrograman Web</th>
+                            <th>Pemrograman</th>
+                            <th>2 Tahun</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Bootstrap</th>
+                            <th>Framework</th>
+                            <th>1 Tahun</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Javascript Native/Nodejs</th>
+                            <th>Pemrograman</th>
+                            <th>6 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Python</th>
+                            <th>Pemrograman</th>
+                            <th>1 Tahun</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Golang</th>
+                            <th>Pemrograman</th>
+                            <th>6 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>PHP</th>
+                            <th>Pemrograman</th>
+                            <th>6 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Laravel</th>
+                            <th>Framework</th>
+                            <th>3 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Vue.js</th>
+                            <th>Framework</th>
+                            <th>3 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Perl</th>
+                            <th>Pemrograman</th>
+                            <th>3 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Ruby</th>
+                            <th>Pemrograman</th>
+                            <th>6 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>Dart</th>
+                            <th>Pemrograman</th>
+                            <th>3 Bulan</th>
+                        </tr>
+                        <tr class="table-success">
+                            <th>MySQL</th>
+                            <th>Database Query</th>
+                            <th>1 Bulan</th>
+                        </tr>
+                    </table>
                 </section>
             </section>
-            <section class="mdl-color--white mdl-shadow--2dp">
-                <h2 class="mdl-typography--display-1">Pengalaman</h2><br>
-                <h4 class="mdl-color-text--indigo-500">Pemrograman</h4>
+            <section class="bg-dark">
+                <h2 class="fw-bolder mb-4">Proyek</h2>
                 <section>
-                    <h3 class="mdl-typography--title mdl-typography--title">Pemrograman Web (HTML, CSS, JS, Bootstrap)
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        2 Tahun
-                    </p>
-                    <h3 class="mdl-typography--title mdl-typography--title">Python
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        1 Tahun
-                    </p>
-                    <h3 class="mdl-typography--title mdl-typography--title">Golang
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        5 Bulan
-                    </p>
-                    <h3 class="mdl-typography--title mdl-typography--title">PHP
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        3 Bulan
-                    </p>
-                    <h3 class="mdl-typography--title mdl-typography--title">Perl
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        1 Bulan
-                    </p>
-                    <h3 class="mdl-typography--title mdl-typography--title">Ruby
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        1 Bulan
-                    </p>
-                    <h3 class="mdl-typography--title mdl-typography--title">Dart
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        1 Minggu
-                    </p>
-                </section><br>
-                <h4 class="mdl-color-text--indigo-500">Sistem Operasi</h4>
-                <section>
-                    <h3 class="mdl-typography--title mdl-typography--title">Windows
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        4 Tahun
-                    </p>
-                    <h3 class="mdl-typography--title mdl-typography--title">Debian
-                    </h3>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        1 Tahun
-                    </p>
-                </section>
-            </section>
-            <section class="mdl-color--white mdl-shadow--2dp">
-                <h2 class="mdl-typography--display-1">Proyek</h2>
-                <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">Showcase</h3>
-                    <p class="mdl-typography--subhead mdl-typography--subhead-color-contrast"><a
-                            href="https://github.com/indra87g/Showcase">Github</a></p>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
+                    <h3 class="fw-bold mb-4">Showcase</h3>
+                    <a href="https://github.com/indra87g/Showcase" class="btn btn-primary bg-gradient">Github</a>
+                    <p class="lead">
                         10 Februari 2024
                     </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
-                        <li>Showcase adalah template website yang ringan untuk proyek anda.</li>
+                    <ul class="lead">
+                        <li>Template website yang ringan untuk proyek anda.</li>
                         <li>Dibuat dengan HTML, CSS, JS dan Bootstrap 5</li>
                     </ul>
                 </section>
                 <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">Volt Python</h3>
-                    <p class="mdl-typography--subhead mdl-typography--subhead-color-contrast"><a
-                            href="https://github.com/indra87g/volt-python">Github</a></p>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
+                    <img class="card-img-top" src="assets/img/project2.png" alt="..." />
+                    <h3 class="fw-bold mb-4">HappyBirthtmlday
+                    </h3>
+                    <a href="https://github.com/indra87g/volt-python" class="btn btn-primary bg-gradient">Github</a>
+                    <p class="lead">
                         2024
                     </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
-                        <li>Volt Python adalah library serbaguna untuk membantu pengembangan software dengan Python.
+                    <ul class="lead">
+                        <li>Template website yang keren untuk mengucapkan ulang tahun
                         </li>
+                        <li>Dibuat dengan HTML, CSS, JS, dan Bootstrap 5</li>
                     </ul>
                 </section>
                 <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">My Python
-                        Notebook</h3>
-                    <p class="mdl-typography--subhead mdl-typography--subhead-color-contrast"><a
-                            href="https://github.com/indra87g/my-python-notebook">Github</a></p>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        3 Februari 2024
-                    </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
-                        <li>My Python Notebook adalah proyek pribadi saya yang dibuat dengan Jupyter Notebook.</li>
-                        <li>Berisi banyak kode Python yang menarik.</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">Proyek Lainnya
+                    <h3 class="fw-bold mb-4">Proyek Lainnya
                     </h3>
-                    <p class="mdl-typography--subhead mdl-typography--subhead-color-contrast"><a
-                            href="https://github.com/indra87g">Github</a></p>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
+                    <a href="https://github.com/indra87g" class="btn btn-primary bg-gradient">Github</a>
+                    <p class="lead">
                         Januari 2023 - Sekarang
                     </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
+                    <ul class="lead">
                         <li>Saya membuat berbagai proyek yang rata rata dibuat dengan HTML dan Python.</li>
-                        <li>Saya juga aktif untuk membantu proyek orang lain di Github, seperti Laragon buatan Leo K dan
-                            Ebook Dasar Pemrograman Golang buatan Noval Agung.</li>
+                        <li>Saya juga aktif untuk membantu proyek orang lain di Github, seperti Ebook Dasar Pemrograman
+                            Golang buatan Noval Agung.</li>
                     </ul>
                 </section>
             </section>
-            <section class="mdl-color--white mdl-shadow--2dp">
-                <h2 class="mdl-typography--display-1">Penelitian</h2>
+            <section class="bg-dark">
+                <h2 class="fw-bolder mb-4">Penelitian & Presentasi</h2>
                 <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">Belajar Dimana Saja, Kapan Saja
+                    <h3 class="fw-bold mb-4">( IPA Kelas IX )
+                        Bioteknologi Pertanian
                     </h3>
-                    <p class="mdl-typography--subhead mdl-typography--subhead-color-contrast"><a
-                            href="https://indra87g.medium.com">Baca lebih lanjut...</a></p>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        Februari 2024 - Sekarang
+                    <a href="https://canva.com" class="btn btn-primary bg-gradient">Lihat</a></p>
+                    <p class="lead">
+                        21 - 24 Februari 2024
                     </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
-                        <li>Saya meneliti tentang kemungkinan belajar yang tak terbatas dengan menggunakan teknologi yang ada sekarang.</li>
-                        <li>Saya memulai penelitian ini karena melihat berbagai potensi untuk belajar dengan teknologi di jaman sekarang.</li>
-                    </ul>
-                </section>
-                <section>
-                    <h3 class="mdl-typography--title mdl-typography--title mdl-color-text--indigo-500">Lingkungan Online Organik
-                    </h3>
-                    <p class="mdl-typography--subhead mdl-typography--subhead-color-contrast"><a
-                            href="https://indra87g.medium.com">Baca lebih lanjut...</a></p>
-                    <p class="mdl-typography--body-1 mdl-typography--body-1-color-contrast">
-                        Februari 2024 - Sekarang
-                    </p>
-                    <ul class="mdl-typography--subhead mdl-typography--subhead-color-contrast">
-                        <li>Saya meneliti tentang cara membuat lingkungan online yang organik.</li>
-                        <li>Maksud saya organik disini, adalah lingkungan online yang minim iklan, tidak ada pemborosan halaman web, dan lainnya</li>
-                        <li>Saya memulai penelitian ini karena sering melihat website (terutama website berita) yang memiliki iklan yang berlebihan dan halaman yang banyak untuk satu artikel saja.</li>
+                    <ul class="lead">
+                        <li>Ini adalah tugas IPA saya bersama kelompok saya.</li>
+                        <li>Membahas tentang bioteknologi pertanian (Basilus Thuringiensis dan Tanaman Hibrida)</li>
                     </ul>
                 </section>
             </section>
-            <section class="mdl-color--white mdl-shadow--2dp">
-                <h2 class="mdl-typography--display-1">Dukung Saya</h2>
-                <p>Jika anda tertarik anda dapat mendukung saya dengan cara cara berikut :</p>
+            <section class="bg-dark">
+                <h2 class="fw-bolder mb-4">Layanan Saya</h2>
+                <p>Sebagai Freelancer, saya menyediakan layanan sesuai kemampuan saya. yaitu :</p>
                 <ul>
-                <li>Donasi, anda bisa mengirim uang kepada saya melalui <a href="https://saweria.co/indra87g">Saweria</a> dan <a href="">Trakteer</a></li>
-                <li>Menggunakan Jasa, anda bisa menggunakan jasa saya seperti Desain (Web dan Grafis) dan lainnya</li>
-                <li>Bergabung dengan Perusahaan, anda bisa bergabung dengan perusahaan kecil saya, Asterix Corporation. syarat dan ketentuan berlaku !</li>
+                    <a data-bs-toggle="modal" data-bs-target="#service1" href=""
+                        class="btn btn-primary bg-gradient">Penyiapan Template Website</a>
+                    <a data-bs-toggle="modal" data-bs-target="#service2" href=""
+                        class="btn btn-primary bg-gradient">P</a></li>
+                    <a data-bs-toggle="modal" data-bs-target="#service3" href=""
+                        class="btn btn-primary bg-gradient">P</a></li>
                 </ul>
+                <p class="lead">Catatan : Pembayaran hanya diterima melalui <a href="">Trakteer</a> dan DANA
+                    089520428615. Jika
+                    melalui <a href="">Saweria</a>, maka akan saya anggap sebagai donasi</p>
+            </section>
+            <section class="bg-dark">
+                <h2 class="fw-bolder mb-4">Hubungi Saya</h2>
+                <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/mrgnkpzy"
+                    method="post">
+                    <fieldset id="fs-frm-inputs">
+                        <div class="form-floating mb-3">
+                            <b>Nama</b>
+                            <input type="text" name="name" id="full-name" placeholder="John Doe" class="form-control"
+                                required="" data-twofas-input-listener="true" data-twofas-element-number="0" />
+                        </div>
+                        <div class="form-floating mb-3">
+                            <b>Email</b>
+                            <input type="email" name="_replyto" id="email-address" class="form-control"
+                                placeholder="email@domain.com" required="" />
+                        </div>
+                        <div class="form-floating mb-3">
+                            <b>Nomor Telepon (Opsional)</b>
+                            <input type="telephone" name="telephone" id="telephone" class="form-control"
+                                placeholder="+62 123 4567 8910" />
+                        </div>
+                        <div class="form-floating mb-3">
+                            <b>Pesan</b>
+                            <textarea rows="6" name="complaint" id="complaint" class="form-control"
+                                placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+                                required="" data-twofas-input-listener="true" data-twofas-element-number="1"></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" id="email-subject" class="form-control"
+                            value="Pesan untuk tim SkillHunter" />
+
+                    </fieldset>
+                    <input type="submit" value="Kirim" data-twofas-element-number="2"
+                        class="btn btn-primary bg-gradient" /><br>
+                    <b>Jangan melakukan spam dengan mengklik tombol "Kirim" lebih dari 2 kali</b>
+                </form>
             </section>
         </main>
     </div>
+    <div class="modal fade" id="service1" tabindex="-1" aria-labelledby="service1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="service1">Penyiapan Template Website</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead fw-normal mb-4">
+                        Saya menyiapkan template website buatan saya atau buatan orang lain agar dapat langsung siap
+                        pakai
+                        untuk kebutuhan bisnis atau personal anda. Biayanya pun bervariasi tergantung dengan kemampuan
+                        anda untuk
+                        membayar. Setelah menyiapkannya, saya akan langsung mengonlinekannya melalui akun Github pribadi
+                        saya (Anda juga bisa
+                        memilih untuk tidak mengonlinekannya) dengan batas waktu online maksimal 30 hari dengan alasan
+                        privasi. setelah semua beres,
+                        anda bisa memutuskan untuk tidak membayar atau membayar seikhlasnya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="service2" tabindex="-1" aria-labelledby="service2" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="service2">Penyiapan Template Website</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Sedikit kata untukmu</h4>
+                    <p class="lead fw-normal mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, consequuntur dignissimos,
+                        natus voluptas accusamus odit autem nulla quos dolores molestias repellat officia modi! Aperiam
+                        corporis perspiciatis ullam quasi voluptatum dignissimos!
+                    </p>
+                    <h4>Foto fotomu</h4>
+                    <img src="" alt="lorem ipsum dolor sit amet">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="service3" tabindex="-1" aria-labelledby="service3" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="service3">Penyiapan Template Website</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Sedikit kata untukmu</h4>
+                    <p class="lead fw-normal mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, consequuntur dignissimos,
+                        natus voluptas accusamus odit autem nulla quos dolores molestias repellat officia modi! Aperiam
+                        corporis perspiciatis ullam quasi voluptatum dignissimos!
+                    </p>
+                    <h4>Foto fotomu</h4>
+                    <img src="" alt="lorem ipsum dolor sit amet">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
