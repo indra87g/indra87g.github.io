@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemisah URL</title>
+    <script>
+        function splitUrl() {
+            let fullUrl = prompt("Masukkan Link Shrinkme untuk melanjutkan:", "https://shrinkme.io/st?api={random}&url=https://www.mediafire.com/file/8zpibfkvk7n9ydt");
+
+            if (!fullUrl) {
+                alert("URL tidak boleh kosong!");
+                return;
+            }
+
+            const parts = fullUrl.split("url=");
+
+            if (parts.length > 1) {
+                document.getElementById("beforeUrl").value = parts[0];
+                document.getElementById("afterUrl").value = parts[1];
+            } else {
+                document.getElementById("beforeUrl").value = "Link tidak mengandung parameter 'url'";
+                document.getElementById("afterUrl").value = "";
+            }
+        }
+
+        function copyText(id) {
+            const textField = document.getElementById(id);
+            textField.select();
+            document.execCommand("copy");
+            alert("Link berhasil disalin!");
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            display: block;
+        }
+        button {
+            padding: 10px 15px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+        .hidden {
+            display: none;
+        }
+
+    </style>
+</head>
+<body onload="splitUrl()">
+
+    <h2>Shrinkme Bypass</h2>
+
+    <p>Ingin mengakses URL tertentu, namun dihalangi oleh Shrinkme?</p>
+    <b>Tenang, gunakan tools ini untuk melakukan Bypass</b>
+
+    <input type="text" id="beforeUrl" class="hidden" readonly hidden>
+
+    <input type="text" id="afterUrl" readonly>
+    <button onclick="copyText('afterUrl')">Salin</button>
+
+    <br>
+    <button onclick="splitUrl()">Masukkan URL</button>
+
+    <h2>Bagaimana cara kerja nya?</h2>
+
+    <p>
+        Simple. Tools ini memanfaatkan celah yang ada pada link shrinkme, yaitu parameter <i>url</i>
+    </p>
+    <b>Contoh:</b>
+    <code>https://shrinkme.io/st?api={random}&url={link asli sebelum diubah menjadi link shrinkme}</code>
+
+    <p>
+        Dari sini bisa disimpulkan bahwa link asli tidak benar benar diubah menjadi link shrinkme, tapi dipindahin ke parameter <i>url</i>.
+        Hal ini tentunya membuat orang awam mudah tertipu dan mengikuti link iklan menyebalkan dari shrinkme.
+    </p>
+
+    <strong>CATATAN: Tools ini masih bisa berfungsi selama developer Shrinkme masih belum menyadari celah ini dan memperbaikinya!</strong>
+</body>
+</html>
